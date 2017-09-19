@@ -34,9 +34,10 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(148, 178);
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnShow.Location = new System.Drawing.Point(90, 178);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(118, 43);
+            this.btnShow.Size = new System.Drawing.Size(119, 44);
             this.btnShow.TabIndex = 0;
             this.btnShow.Text = "Show Hello World";
             this.btnShow.UseVisualStyleBackColor = true;
@@ -44,10 +45,11 @@
             // 
             // lblHelloWorld
             // 
+            this.lblHelloWorld.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblHelloWorld.AutoSize = true;
             this.lblHelloWorld.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHelloWorld.ForeColor = System.Drawing.Color.Red;
-            this.lblHelloWorld.Location = new System.Drawing.Point(101, 87);
+            this.lblHelloWorld.Location = new System.Drawing.Point(61, 87);
             this.lblHelloWorld.Name = "lblHelloWorld";
             this.lblHelloWorld.Size = new System.Drawing.Size(0, 45);
             this.lblHelloWorld.TabIndex = 1;
@@ -57,11 +59,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 262);
+            this.ClientSize = new System.Drawing.Size(297, 256);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnShow);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hello World";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
