@@ -34,7 +34,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnShow.Location = new System.Drawing.Point(90, 178);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(119, 44);
@@ -45,7 +45,7 @@
             // 
             // lblHelloWorld
             // 
-            this.lblHelloWorld.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblHelloWorld.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHelloWorld.AutoSize = true;
             this.lblHelloWorld.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHelloWorld.ForeColor = System.Drawing.Color.Red;
@@ -62,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(297, 256);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnShow);
+            this.MinimumSize = new System.Drawing.Size(313, 294);
             this.Name = "Form1";
             this.Text = "Hello World";
             this.Load += new System.EventHandler(this.Form1_Load);
